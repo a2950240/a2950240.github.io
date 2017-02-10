@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>Lin&#39;s note</title>
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2017-02-10T13:15:44.861Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="https://a2950240.github.io/"/>
+  <updated>2017-02-10T13:46:02.918Z</updated>
+  <id>https://a2950240.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Lin QS</name>
     
   </author>
   
@@ -17,12 +17,16 @@
   
   <entry>
     <title>My New Post</title>
-    <link href="http://yoursite.com/2017/02/10/My-New-Post/"/>
-    <id>http://yoursite.com/2017/02/10/My-New-Post/</id>
+    <link href="https://a2950240.github.io/2017/02/10/My-New-Post/"/>
+    <id>https://a2950240.github.io/2017/02/10/My-New-Post/</id>
     <published>2017-02-10T13:15:44.000Z</published>
-    <updated>2017-02-10T13:15:44.861Z</updated>
+    <updated>2017-02-10T13:46:02.918Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3>]]></content>
     
     <summary type="html">
+    
+      &lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#
     
     </summary>
     
@@ -31,8 +35,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2017/02/10/hello-world/"/>
-    <id>http://yoursite.com/2017/02/10/hello-world/</id>
+    <link href="https://a2950240.github.io/2017/02/10/hello-world/"/>
+    <id>https://a2950240.github.io/2017/02/10/hello-world/</id>
     <published>2017-02-10T11:26:36.737Z</published>
     <updated>2017-02-10T11:26:36.737Z</updated>
     
