@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://a2950240.github.io/"/>
-  <updated>2017-02-11T10:54:52.559Z</updated>
+  <updated>2017-02-11T13:26:51.124Z</updated>
   <id>https://a2950240.github.io/</id>
   
   <author>
@@ -16,74 +16,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>My New Post</title>
+    <title>安装Atom遇到的坑</title>
     <link href="https://a2950240.github.io/2017/02/10/install-atom/"/>
     <id>https://a2950240.github.io/2017/02/10/install-atom/</id>
     <published>2017-02-10T13:15:44.000Z</published>
-    <updated>2017-02-11T10:54:52.559Z</updated>
+    <updated>2017-02-11T13:26:51.124Z</updated>
     
-    <content type="html"><![CDATA[<p>:tada: :fireworks:</p>
-<p>If you want your page to validate under XHTML 1.0 Strict,<br>you’ve got to put paragraph tags in your blockquotes:</p>
+    <content type="html"><![CDATA[<h1 id="坑一"><a href="#坑一" class="headerlink" title="坑一"></a>坑一</h1><h2 id="键盘按WIN-R-命令行模式不能使用apm命令"><a href="#键盘按WIN-R-命令行模式不能使用apm命令" class="headerlink" title="键盘按WIN+R 命令行模式不能使用apm命令"></a>键盘按WIN+R 命令行模式不能使用apm命令</h2><p>在主页下载了exe文件，命令行执行apm提示“不是内部命令”，要在我的电脑设置环境变量</p>
+<h1 id="坑二"><a href="#坑二" class="headerlink" title="坑二"></a>坑二</h1><h2 id="不能下载package"><a href="#不能下载package" class="headerlink" title="不能下载package"></a>不能下载package</h2><p>由于我们伟大的墙，所以我们需要进行代理设置</p>
 <ol>
-<li>1</li>
-<li>3<br>|Tables|Are|Cool||————-|:————-:|—–:||col 3 is|right-aligned|$1600||col 2 is|centered|$12||zebra stripes|are neat|$1|</li>
-<li>1</li>
-<li>1</li>
+<li>安装shadowsocks等本地代理</li>
+<li>打开命令行，配置apm的代理</li>
 </ol>
-<p><blockquote></blockquote></p>
-<p></p><p>For example.</p><br><br>**<p></p>
-<h1 id="end"><a href="#end" class="headerlink" title="end"></a>end</h1><p> **</p>
-<ul>
-<li>ee *</li>
-</ul>
-<p>I strongly recommend against using any <code>&lt;blink&gt;</code> tags.</p>
-<p>I wish SmartyPants used named entities like <code>&amp;mdash;</code><br>instead of decimal-encoded entites like <code>&amp;#8212;</code></p>
-<h1 id="Start"><a href="#Start" class="headerlink" title="Start"></a>Start</h1><p><img src="/path/to/img.jpg" alt="alt text" title="Title"><br>This is an <a href="http://example.com/" title="With a Title" target="_blank" rel="external">example link</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><p>I get 10 times more traffic from <a href="http://google.com/" title="Google" target="_blank" rel="external">Google</a> than from<br><a href="http://search.yahoo.com/" title="Yahoo Search" target="_blank" rel="external">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search" target="_blank" rel="external">MSN</a>.</p>
-<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><p>: tada</p>
-<ul>
-<li><p>A list item.</p>
-<p>  With multiple paragraphs.</p>
-</li>
-<li><p>Another item in the list.<br>This is an <a href="http://example.com/" target="_blank" rel="external">example link</a>.</p>
-</li>
-</ul>
-<blockquote>
-<p>11231</p>
-</blockquote>
-<ul>
-<li>list</li>
-<li>list</li>
-<li>list</li>
-</ul>
-<ul>
-<li>ji</li>
-<li>asd</li>
-<li>as</li>
-</ul>
-<ul>
-<li>s</li>
-<li>s</li>
-</ul>
-<ol>
-<li>123</li>
-<li>2017-02</li>
-<li>date</li>
-</ol>
-<h1 id="first"><a href="#first" class="headerlink" title="first"></a>first</h1><h2 id="second"><a href="#second" class="headerlink" title="second"></a>second</h2><blockquote>
-<p>12</p>
-<h1 id="2123"><a href="#2123" class="headerlink" title="2123"></a>2123</h1></blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">apm config <span class="built_in">set</span> strict-ssl <span class="literal">false</span></div><div class="line"></div><div class="line">apm config <span class="built_in">set</span> https-proxy https://127.0.0.1:1080</div><div class="line"></div><div class="line">apm config <span class="built_in">set</span> http-proxy http://127.0.0.1:1080</div><div class="line"></div><div class="line">apm config list</div></pre></td></tr></table></figure>
+<p><strong>请确保你的shaodwsocks Proxy Port为1080</strong></p>
+<p><strong>C:\Windows\System32\drivers\etc下hosts中127.0.0.1前面没有#</strong></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;:tada: :fireworks:&lt;/p&gt;
-&lt;p&gt;If you want your page to validate under XHTML 1.0 Strict,&lt;br&gt;you’ve got to put paragraph tags in your blockquot
+      &lt;h1 id=&quot;坑一&quot;&gt;&lt;a href=&quot;#坑一&quot; class=&quot;headerlink&quot; title=&quot;坑一&quot;&gt;&lt;/a&gt;坑一&lt;/h1&gt;&lt;h2 id=&quot;键盘按WIN-R-命令行模式不能使用apm命令&quot;&gt;&lt;a href=&quot;#键盘按WIN-R-命令行模式不能使用apm命令&quot; class
     
     </summary>
     
+      <category term="软件" scheme="https://a2950240.github.io/categories/%E8%BD%AF%E4%BB%B6/"/>
     
-      <category term="jk" scheme="https://a2950240.github.io/tags/jk/"/>
+    
+      <category term="Atom" scheme="https://a2950240.github.io/tags/Atom/"/>
     
   </entry>
   
